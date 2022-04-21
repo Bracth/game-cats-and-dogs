@@ -1,0 +1,57 @@
+/* styling the container of the game */
+
+#game-form {
+    display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+}
+
+#game-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* styling the picture */
+
+#picture {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+
+#picture input {
+    display: none
+}
+
+#picture label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+#picture label img {
+    height: 140px;
+    width: 140px;
+}
+
+#picture :checked+label {
+    border: 5px solid aqua;
+}
+
+/* styling the submit button */
+
+#submit-game {
+    font-size: 30px;
+    padding: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#submit-game:hover{
+    color: blue;
+    background-color: aquamarine;
+}

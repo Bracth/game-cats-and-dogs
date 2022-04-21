@@ -1,0 +1,73 @@
+/* styling the startpage container */
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* styling the text */
+
+#title {
+    color: blue;
+    font-size: 60px;
+font-weight: 700    ;
+}
+
+#description {
+    font-size: 25px;
+font-weight: 400;
+}
+
+/* Difficultie setting style */
+
+#difficultie-title {
+    font-size: 35px;
+font-weight: 500;
+}
+
+#radio-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#radio-container input{
+    display: none;
+}
+
+#radio-container label{
+    font-size: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#radio-container :checked+label{
+    color:green;
+    text-shadow: 2px 2px 3px green;
+}
+
+/* Button style */
+
+#button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#start-button {
+    font-size: 30px;
+    padding: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    color: blue;
+    background-color: aquamarine;
+}
+
+
+
